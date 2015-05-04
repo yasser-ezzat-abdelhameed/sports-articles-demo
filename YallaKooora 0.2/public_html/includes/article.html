@@ -1,0 +1,31 @@
+<article>
+    <header>
+        <h2>{{article.name}}</h2>
+    </header>
+    <section>
+        <p>{{article.body}}</p>
+        <figure>
+            <img src="img/{{article.picture}}" alt=""/>
+        </figure>
+    </section>
+    <footer>
+        <p>Published on {{article.date | date:'dd/MM/yyyy'}}</p>
+    </footer>
+</article>
+<div>
+    <h3>Related Articles</h3>
+    <table>
+        <thead>
+            <tr>
+                <td>Title</td>
+                <td>Date</td>
+            </tr>
+        </thead>
+        <tbody data-related-articles>
+            <tr ng-repeat="a in articles | orderBy:'-date' | limitTo:countOfRelatedArticles" ng-if="!(a.name === article.name)">
+                <td><a href="#/articles/{{a.type}}/{{a.name}}">{{a.name}}</a></td>
+                <td>{{a.date | date:'dd/MM/yyyy'}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

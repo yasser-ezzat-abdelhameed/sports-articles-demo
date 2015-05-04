@@ -1,0 +1,102 @@
+{
+    "articles": [
+        {
+            "name": "Article 1",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "12/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 2",
+            "body": "This is the second article",
+            "picture": "article02-01.jpg",
+            "date": "12/04/2015",
+            "type": "epl"
+        },
+        {
+            "name": "Article 3",
+            "body": "This is the third article",
+            "picture": "article03-01.jpg",
+            "date": "12/04/2015",
+            "type": "epl"
+        },
+        {
+            "name": "Article 4",
+            "body": "This is the fourth article",
+            "picture": "article01-01.jpg",
+            "date": "19/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 5",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "29/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 6",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "18/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 7",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "12/03/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 8",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "15/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 9",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "12/02/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 10",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "22/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 11",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "17/04/2015",
+            "type": "epl"
+        },
+        {
+            "name": "Article 12",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "12/01/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 13",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "20/04/2015",
+            "type": "eg"
+        },
+        {
+            "name": "Article 14",
+            "body": "This is the first article",
+            "picture": "article01-01.jpg",
+            "date": "17/03/2015",
+            "type": "epl"
+        }
+    ]
+}
